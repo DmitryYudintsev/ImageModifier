@@ -17,7 +17,6 @@ class ImageViewController: UIViewController, UIImagePickerControllerDelegate, UI
     var colorMas : [UIColor]? = []
     var imagePicker = UIImagePickerController()
     @IBOutlet weak var image : UIImageView!
-    var f = 1
     
     @IBAction func transformR (_ sender : UILongPressGestureRecognizer) {
         image.image = buferImage!
